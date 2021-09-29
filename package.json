@@ -1,0 +1,19 @@
+{
+  "name": "micro-yf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "examples:install": "npm-run-all --serial install:*",
+    "examples:start": "npm-run-all --parallel start:*",
+    "install:main": "cd micro-main-yf && cnpm install",
+    "start:main": "cd micro-main-yf && npm run serve",
+    "install:vue": "cd micro-vue && cnpm install",
+    "start:vue": "cd micro-vue && npm run serve"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "author": "",
+  "license": "ISC"
+}
