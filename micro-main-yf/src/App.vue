@@ -1,5 +1,5 @@
 <template>
-  <div id="rootApp">
+  <div id="rootApp" style="display: flex">
     <nav-menu :menuArr="menuArr"/>
     <div>
       <!-- 主应用渲染区，用于挂载主应用路由触发的组件 -->
@@ -26,9 +26,9 @@ export default {
           path: "/"
         },
         {
-          key: "VueMicroApp",
-          title: "Vue 主页",
-          path: "/vue"
+          key: "order",
+          title: "订单模块",
+          path: "/orderManage"
         }
       ]
     }

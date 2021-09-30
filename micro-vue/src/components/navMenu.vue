@@ -1,12 +1,10 @@
 <template>
-  <div style="width: 150px">
+  <div>
     <el-row class="tac">
       <el-menu
-          default-active="2"
-          class="el-menu-vertical-demo"
           @open="handleOpen"
           @close="handleClose">
-          <el-menu-item index="2" v-for="(item,index) in menuArr" :key="index">
+          <el-menu-item v-for="(item,index) in menuArr" :key="index">
             <router-link :to="{path: item.path }">
               <i class="el-icon-menu"></i>
               <span>{{item.title}}</span>
@@ -21,7 +19,20 @@
 export default {
   name: 'navMenu',
   props: {
-    menuArr: []
+  },
+  data() {
+    return {
+      menuArr: [
+        {
+          title: "nav1",
+          path: "/order1"
+        },
+        {
+          title: "nav2",
+          path: "/order2"
+        }
+      ]
+    }
   },
   methods: {
     handleOpen() {},

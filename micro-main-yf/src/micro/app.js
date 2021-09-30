@@ -7,10 +7,10 @@ const apps = [
    * activeRule: 微应用触发的路由规则 - 触发路由规则后将加载该微应用
    */
   {
-    name: "VueMicroApp",
+    name: "order",
     entry: 'http://localhost:10001',
     container: "#frame",
-    activeRule: "/vue",
+    activeRule: "/orderManage",
   }
 ];
 

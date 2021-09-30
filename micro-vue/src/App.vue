@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    vue
+    <navMenu></navMenu>
     <router-view/>
   </div>
 </template>
 <script>
-// import navMenu from '@/components/navMenu'
+import navMenu from '@/components/navMenu'
 
 export default {
   name: 'App',
   components: {
-    // navMenu
+    navMenu
   },
   data() {
     return {

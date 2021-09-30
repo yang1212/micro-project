@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    2
+    vue son update
   </div>
 </template>
 
