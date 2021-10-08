@@ -11,6 +11,12 @@ const apps = [
     entry: 'http://localhost:10001',
     container: "#frame",
     activeRule: "/orderManage",
+  },
+  {
+    name: "member",
+    entry: 'http://localhost:10002',
+    container: "#frame",
+    activeRule: "/memberManage",
   }
 ];
 

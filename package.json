@@ -8,8 +8,10 @@
     "examples:start": "npm-run-all --parallel start:*",
     "install:main": "cd micro-main-yf && cnpm install",
     "start:main": "cd micro-main-yf && npm run serve",
-    "install:vue": "cd micro-vue && cnpm install",
-    "start:vue": "cd micro-vue && npm run serve"
+    "install:vue1": "cd micro-order-vue && cnpm install",
+    "start:vue1": "cd micro-order-vue && npm run serve",
+    "install:vue2": "cd micro-member-vue && cnpm install",
+    "start:vue2": "cd micro-member-vue && npm run serve"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.5"

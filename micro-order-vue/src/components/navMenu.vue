@@ -4,7 +4,7 @@
       <el-menu
           @open="handleOpen"
           @close="handleClose">
-          <el-menu-item v-for="(item,index) in menuArr" :key="index">
+          <el-menu-item v-for="(item,index) in menuArr" :key="index" index="1">
             <router-link :to="{path: item.path }">
               <i class="el-icon-menu"></i>
               <span>{{item.title}}</span>

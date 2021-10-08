@@ -29,6 +29,11 @@ export default {
           key: "order",
           title: "订单模块",
           path: "/orderManage"
+        },
+        {
+          key: "member",
+          title: "会员模块",
+          path: "/memberManage"
         }
       ]
     }
